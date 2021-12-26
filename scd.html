@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Nghe Nhạc Cùng Him</title>
+	<link rel="stylesheet" type="text/css" href="scd.css">
+</head>
+<body bgcolor="#000000">
+  <h1 align="center">
+<span style="background: url(&quot;https://timoday.edu.vn/d9f50c755f7e4d8626a518843017a8bc_44837304.partner.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.3em LightYellow, 0pt 2pt 0.3em LightYellow;"><b> 🧡Bạn Đang Nghe Nhạc Cùng Him🧡</b></span>
+</h1>
+<h2 align="center">
+	<span style="background: url(&quot;https://timoday.edu.vn/d9f50c755f7e4d8626a518843017a8bc_44837304.partner.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.3em LightYellow, 0pt 2pt 0.3em LightYellow;"><b> 💓Chạm Vào Màn Hình Để Nghe Nhé ! 💓</b></span>
+</h2>
+<script>var f=0;
+      document.body.addEventListener("click", function (evt) {
+         f=f+1;
+        //alert(f);
+        if(f==1){
+        console.dir(this);
+        console.log(evt.target);
+        var audio = new Audio("siucodon.mp3");
+        audio.oncanplaythrough = function(){
+          audio.play();
+        }
+        audio.loop = true;
+        audio.onended = function(){
+          audio.play();
+        }
+    
+      }});
+</script>
+<center>
+	<img src="sadboy.jpg">
+</center>
+<center>
+	<h1><span style="background: url(&quot;https://timoday.edu.vn/d9f50c755f7e4d8626a518843017a8bc_44837304.partner.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.3em LightYellow, 0pt 2pt 0.3em LightYellow;"><b> Cảm ơn đã nghe !💕</b></span>
+	</h1>
+</center>
+<script type="text/javascript" src="https://itexpress.vn/API/files/it.snow.js"></script>
+</body>
